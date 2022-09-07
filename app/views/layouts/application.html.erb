@@ -11,6 +11,25 @@
   </head>
 
   <body>
+    
+    <header>
+      <div class="drawer">        
+        <input type="checkbox" name="navToggle" id="navToggle" class="nav-toggle">
+        <label for="navToggle" class="btn-burger">
+          <span class="icon"></span>            
+        </label>
+        <h2 class="title">Portfolio3</h2>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><%= link_to 'TOP',root_path, class: "a" %></li>
+            <li><%= link_to'PRODUCT', homes_index_path, class: "a" %></li>
+            <li><%= link_to 'ABOUT', homes_about_path, class: "a" %></li>
+            <li><%=link_to 'NEWS', homes_news_path, class: "a" %></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </header>
     <%= yield %>
   </body>
 </html>
