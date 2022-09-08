@@ -20,22 +20,37 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+  ont-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    background-color: #fff;
+    color: #13191b;
+    line-height: 1.7;
+    font-size: 13px;
+}
+
 /*nav*/
 header{
-  background-color: red;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .logo{
-  background: #eee;
-  padding: 10px 20px;
-  display: inline-block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 7%;
 }
 
 ul {
-  padding: 0;
-  margin: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 li {
   list-style-type: none;
@@ -46,13 +61,28 @@ li {
 }
 
 nav {
-  margin: 0 auto;
+    float: right;
+    margin-top: 75px;
+    margin-right: 7%;
 }
 nav ul {
-  display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /*font-size: 0;*/
+    letter-spacing: -1em;
+    word-spacing: -1em;
 }
 nav ul li .a {
-  padding: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-left: 40px;
+  
 }
 
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
