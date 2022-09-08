@@ -21,69 +21,37 @@ box-sizing: border-box;
 }
 
 body{
-  ont-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-    background-color: #fff;
-    color: #13191b;
-    line-height: 1.7;
-    font-size: 13px;
+    min-width:960px;
+    background:#f3f3f3;
+    font-size:15px;
+    font-family:sans-serif;
 }
 
 /*nav*/
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
+.nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:140px;
+    width:87.5%;
+    margin:0 auto;
 }
 
 .logo{
-    float: left;
-    margin-top: 50px;
-    margin-left: 7%;
-}
+    width:70px;
+    height:20px;
+    margin-right:auto;
+    margin-left:0;
+  }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-li {
-  list-style-type: none;
-}
-.a {
-  color: #333;
-  text-decoration: none;
-}
-
-nav {
-    float: right;
-    margin-top: 75px;
-    margin-right: 7%;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    /*font-size: 0;*/
-    letter-spacing: -1em;
-    word-spacing: -1em;
-}
-nav ul li .a {
-    display: inline-block;
-    vertical-align: top;
-    *display: inline;
-    *zoom: 1;
-    font-size: 1rem;
-    letter-spacing: normal;
-    word-spacing: normal;
-    margin-left: 40px;
+.a{
+    height:60px;
+    margin-left:40px;
+    color:#000;
+    text-decoration:none;
+    letter-spacing:.1em;
+  }
   
-}
 
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
