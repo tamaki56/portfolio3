@@ -21,36 +21,12 @@ box-sizing: border-box;
 }
 
 body{
-    min-width:960px;
     background:#f3f3f3;
     font-size:15px;
     font-family:sans-serif;
 }
 
 /*nav*/
-.nav{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:140px;
-    width:87.5%;
-    margin:0 auto;
-}
-
-.logo{
-    width:70px;
-    height:20px;
-    margin-right:auto;
-    margin-left:0;
-  }
-
-.a{
-    height:60px;
-    margin-left:40px;
-    color:#000;
-    text-decoration:none;
-    letter-spacing:.1em;
-  }
   
 
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
